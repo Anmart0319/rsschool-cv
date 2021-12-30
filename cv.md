@@ -26,3 +26,11 @@ __Discord name__: *Sierz#8980*
 
 #### Experience:
   _16 years of experience in engineering_
+  #### Languages:                 
+__Belarussian__ - _Native_   
+__Russian__ - _Native_  
+__Polish__ - _Upper Intermediate_        
+__English__ - _Pre Intermediate_  
+
+
+__Hobbies__: _Travel, writing code, swimming._  
