@@ -5,13 +5,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="autor" content="Anmart">
+    <title>CV#3</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/sierz.jpeg">
 </head>
 
-<body>
-<h1 class="h1">Sierz Anmart</h1>
-<img src="image/sierz.jpeg" alt="avatar">
+<body class="body">
+    <header class="header">
+        <nav class="nav-header">
+            <ul class="header-menu">
+                <li class="header-item">
+                    <a class="header-link" target="_blank" href="https://www.torun.pl/"><img id="logo"
+                            src="icons/anmart.ico" alt="avatar"></a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#goal">Goal</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#contact">Contact</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#education">Education </a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#skills">Skills</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#languages">Languages</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#experience">Experience</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#code-example">Code example</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img id="avatar" src="image/sierz.jpeg" alt="avatar">
+        <h1>Sierz Aksel</h1>
+        <h2>Junior full stack developer</h2>
+        <h3>My goal: To become a full stack developer.</h3>
+        <section class="personal-info">
+            <h3>Contacts</h3>
+            <ul class="contacts">
+                <li>
+                    <img id="contact" src="./icons/house-icon.png" alt="address">
+                </li>
+                <li>
+                    <img id="contact" src="./icons/phone.svg" alt="phone Icon">
+                </li>
+                <li>
+                    <img id="contact" src="./icons/email.svg" alt="email Icon">
+                </li>
+                <li>
+                    <img id="contact" src="icons/discord_log.png" alt="discord">
+                </li>
+            </ul>
+            <ul class="contacts" id=contacts">
+                <li>
+                    <p>Torun, Poland</p>
+                </li>
+                <li>
+                    <p>+48 685 4785142</p>
+                </li>
+                <li>
+                    <p>SW4strony@gmail.com</p>
+                </li>
+                <li>
+                    <p>Sierz#8980</p>
+                </li>
+            </ul>
+            <section class="education" id="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <p class="bstu">Belarusian State Technological University, Design engineer, Minsk, Belarus</p>
+                    </li>
+                    <li>
+                        <p class="udemy">Basic Front-End Developer Course udemy.com</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="experience" id="experience">
+                <h3>Experience</h3>
+                <p>16 years of experience in engineering</p>
+            </section>
+            <section class="skills" id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>VS Code</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                    <li>Zeplin</li>
+                    <li>Adobe Photoshop</li>
+                    <li>AutoCAD</li>
+                    <li>ArchiCAD</li>
+                    <li>CorelDRAW</li>
+                </ul>
+            </section>
+            <section class="languages" id="languages">
+                <h3>Languages</h3>
+                <ul>
+                    <li>
+                        <p class="language-name">Belarussian - Native</p>
+                    </li>
+                    <li>
+                        <p class="language-name">Russian - Native</p>
+                    </li>
+                    <li>
+                        <p class="language-name">Polish - Upper-intermediate</p>
+                    </li>
+                    <li>
+                        <p class="language-name">English - Pre-intermediate</p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3 id="code-example">Code example</h3>
+                <pre>
+            <code>
+                function peak(arr) {
+                
+                for (let i = 1; i &lt; arr.length - 1; i++) {
+                    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+                    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+                
+                    if (leftSum === rightSum) return i;
+                }
+                return -1;
+                }
+            </code>
+                </pre>
+            </section>
+    </main>
+    <footer class="footer">
+        <a class="anmart-git" target="_blank" href="https://github.com/Anmart0319"><img class="github-icon"
+                src="./icons/github_logo.png" alt="Github Icon"></a>
+        <span>© 2022</span>
+        <a target="_blank" href="https://rs.school/js/"><img class="rsschool" src="./icons/rs_school_js.svg"
+                alt="Rsschool Icon"></a>
+    </footer>
 </body>
 
 </html>
