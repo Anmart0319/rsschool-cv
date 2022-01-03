@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+* {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+.body {
+    background-color: #d6c2bc;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    width: 15%;
+}
+.header {
+    background-color: #c0cccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.header-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header-link:hover {
+    color: #65b2c6;
+    font-size: 1.5rem;
+}
+h1,
+h2,
+h3 {
+    color: #1c4480;
+}
+.header-link {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 1.5rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+#avatar {
+    width: 10%;
+}
+.contacts {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.contact-logo {
+    width: 30px;
+}
+.footer {
+    background-color: #65b2c6;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.github-icon {
+    width: 40px;
+    height: 40px;
+}
+.rsschool {
+    width: 90px;
+    height: 32px;
+}
+pre {
+    background-color: #ffffff;
+    padding: 2rem;
+    border: #000000 solid;
+}
+code {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 750px) {
+    .header-menu {
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+}
